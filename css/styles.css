@@ -23,20 +23,21 @@ hover button #188CE8
 Фон #2F303A (черный)
 Адресс: #FFFFFF; почта и тел: #FFFFFF99;
 
-root:
-
-Основной фон background #E5E5E5 (белый)
-Header and Footer background - #2F303A  (черный цвет)
-Фон команды - #f5f4fa (серый)
-Основной цвет текста - #212121 (черный)
-Второстепенный цвет текста - #757575 (серый)
-
-
 */
+:root {
+    --primary-bc-color: #E5E5E5;
+    --secondary-bc-color: #2F303A;
+    --team-bc-color: #F5F4FA;
+    --white-bc-color: #FFFFFF; 
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196f3;
+    
+}
 
 .start-page {
-    background-color: #FFFFFF;
-     color: black;
+    background-color: var(--white-bc-color);
+     color: var(--primary-text-color);
  }
 
  .link {
@@ -50,112 +51,148 @@ Header and Footer background - #2F303A  (черный цвет)
  /* ----- Header ----- */
 
  .header {
-     background-color: #FFFFFF;
+     background-color: var(--white-bc-color);
  }
 
 /* --- header-logo --- */
 
 
-/*
- .header-logo {
-     color: #FFFFFF;
- }
- .header-logo-blue {
-     color: #2196f3;
- }
- .header-logo-black {
-     color: #212121;
- }
-*/
+.header-logo {
+    color: var(--accent-color);
+}
+.header-logo-black {
+    color: var(--primary-text-color);
+}
+
 /* --- header-list --- */
 
 .header-link {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .header-link:hover,
 .header-link:focus {
-color: #2196F3;
+color: var(--accent-color);
+}
+.current {
+    color: var(--accent-color);
 }
 
 /* --- header-address --- */
 .header-address-link {
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 .header-address-link:hover,
 .header-address-link:focus {
-    color: #2196F3;  
+    color: var(--accent-color);  
 }
 
 /* ----- Hero ----- */
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--secondary-bc-color);
 }
 .hero-title {
-    color: #FFFFFF;
+    color: var(--white-bc-color);
 }
 .hero-btn {
-    background-color: #2196f3;
-    color: #FFFFFF;
+    background-color: var(--accent-color);
+    color: var(--white-bc-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #188ce8;
 }
 
 /* --- Features --- */
 
 .features {
-    background-color: #E5E5E5;
+    background-color: var(--primary-bc-color);
 } 
 .features-top-text {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .features-text {
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 
 /* --- Чем мы занимаемся --- */
 
 .work {
-    background-color: #E5E5E5;
+    background-color: var(--primary-bc-color);
 } 
 .work-title {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 /* --- Наша команда --- */
 
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--team-bc-color);
 }
 .team-title {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .team-name {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 .team-text {
-    color: #757575;
+    color: var(--secondary-text-color);
 }
 
 /* ----- Контакты ----- */
 
 .footer {
-    background-color: #2F303A;
+    background-color: var(--secondary-bc-color);
 }
-.footer-logo {
-    color: #2F303A;
-}
-.footer-logo-blue {
-    color: #2196f3;
+.footer-logo {  
+    color: var(--accent-color);
 }
 .footer-logo-white {
-    color: #FFFFFF;
+    color: var(--white-bc-color);
 }
 .footer-address-street {
-    color: #FFFFFF;
+    color: var(--white-bc-color);
 }
 .footer-address-link {
-    color: #757575 ;
+    color: var(--secondary-text-color) ;
 }
 .footer-address-link:hover,
 .footer-address-link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
+}
+
+/* Portfolio */
+
+.portfolio-page {
+    background-color: var(--white-bc-color)
+}
+
+
+.portfolio {
+    background-color: var(--white-bc-color)
+}
+.portfolio-logo {
+    color: var(--accent-color);
+}
+.portfolio-logo-black {
+    color: var(--primary-text-color);
+}
+.portfolio-link {
+    color: var(--primary-text-color)
+}
+.portfolio-link:hover,
+.portfolio-link:focus {
+    color: var(--accent-color)
+}
+.current {
+    color: var(--accent-color)
+}
+
+
+.portfolio-address-link {
+    color: var(--secondary-text-color)
+}
+.portfolio-address-link:hover,
+.portfolio-address-link:focus {
+    color: var(--accent-color)
 }
