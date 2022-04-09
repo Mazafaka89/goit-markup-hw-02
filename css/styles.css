@@ -1,6 +1,46 @@
- .start-page {
-     background-color: white;
+/* --- colors --- 
+-- Head -- 
+Студия #2196F3; (голубой)  Портфолио #212121; (черный)  Контакты  #212121 (черный);
+почта  #2196F3; (голубой)  телефон #757575 (серый);
+Фон background: #FFFFFF (белый);
+
+-- Hero --
+Фон background: #2F303A (черный); Текст #FFFFFF (белый) ?  Кнопка: Текст #FFFFFF (белый) ?,
+hover button #188CE8  
+Фон #2196F3 (голубой) 
+
+-- Features --
+Фон background: #E5E5E5 (белый)
+Внимание к деталям #212121 (черный); Пунктуальность #212121; Планирование #212121; Тех #212121;
+Текст #F5F4FA (серый)
+
+-- Чем мы занимаемся и Команда --
+Фон #E5E5E5 (белый)
+Заголовок Команда и имена #212121 (черный)
+Фон в команде и должности #f5f4fa (серый)
+
+-- footer --
+Фон #2F303A (черный)
+Адресс: #FFFFFF; почта и тел: #FFFFFF99;
+
+root:
+
+Основной фон background #E5E5E5 (белый)
+Header and Footer background - #2F303A  (черный цвет)
+Фон команды - #f5f4fa (серый)
+Основной цвет текста - #212121 (черный)
+Второстепенный цвет текста - #757575 (серый)
+
+
+*/
+
+.start-page {
+    background-color: #FFFFFF;
      color: black;
+ }
+
+ .link {
+     text-decoration: none;
  }
 
  .list {
@@ -9,14 +49,113 @@
 
  /* ----- Header ----- */
 
- .logo-blue {
-     color: blue;
+ .header {
+     background-color: #FFFFFF;
  }
 
- .logo-black {
-     color: black;
+/* --- header-logo --- */
+
+
+/*
+ .header-logo {
+     color: #FFFFFF;
  }
+ .header-logo-blue {
+     color: #2196f3;
+ }
+ .header-logo-black {
+     color: #212121;
+ }
+*/
+/* --- header-list --- */
 
+.header-link {
+    color: #212121;
+}
+.header-link:hover,
+.header-link:focus {
+color: #2196F3;
+}
 
+/* --- header-address --- */
+.header-address-link {
+    color: #757575;
+}
+.header-address-link:hover,
+.header-address-link:focus {
+    color: #2196F3;  
+}
 
+/* ----- Hero ----- */
 
+.hero {
+    background-color: #2F303A;
+}
+.hero-title {
+    color: #FFFFFF;
+}
+.hero-btn {
+    background-color: #2196f3;
+    color: #FFFFFF;
+}
+
+/* --- Features --- */
+
+.features {
+    background-color: #E5E5E5;
+} 
+.features-top-text {
+    color: #212121;
+}
+.features-text {
+    color: #757575;
+}
+
+/* --- Чем мы занимаемся --- */
+
+.work {
+    background-color: #E5E5E5;
+} 
+.work-title {
+    color: #212121;
+}
+
+/* --- Наша команда --- */
+
+.team {
+    background-color: #F5F4FA;
+}
+.team-title {
+    color: #212121;
+}
+.team-name {
+    color: #212121;
+}
+.team-text {
+    color: #757575;
+}
+
+/* ----- Контакты ----- */
+
+.footer {
+    background-color: #2F303A;
+}
+.footer-logo {
+    color: #2F303A;
+}
+.footer-logo-blue {
+    color: #2196f3;
+}
+.footer-logo-white {
+    color: #FFFFFF;
+}
+.footer-address-street {
+    color: #FFFFFF;
+}
+.footer-address-link {
+    color: #757575 ;
+}
+.footer-address-link:hover,
+.footer-address-link:focus {
+    color: #2196F3;
+}
