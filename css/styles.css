@@ -77,6 +77,7 @@ color: var(--accent-color);
     color: var(--accent-color);
 }
 
+
 /* --- header-address --- */
 .header-address-link {
     color: var(--secondary-text-color);
@@ -164,12 +165,13 @@ color: var(--accent-color);
 /* Portfolio */
 
 .portfolio-page {
-    background-color: var(--white-bc-color)
+    background-color: var(--white-bc-color);
 }
 
+/* ----- Portfolio ----- */
 
 .portfolio {
-    background-color: var(--white-bc-color)
+    background-color: var(--white-bc-color);
 }
 .portfolio-logo {
     color: var(--accent-color);
@@ -178,21 +180,38 @@ color: var(--accent-color);
     color: var(--primary-text-color);
 }
 .portfolio-link {
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 .current {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 
 .portfolio-address-link {
-    color: var(--secondary-text-color)
+    color: var(--secondary-text-color);
 }
 .portfolio-address-link:hover,
 .portfolio-address-link:focus {
-    color: var(--accent-color)
+    color: var(--accent-color);
+}
+
+/* ----- filter ----- */
+
+.filter {
+    background-color: var(--primary-bc-color);
+}
+.filter-btn {
+    background-color: var(--team-bc-color);
+    color: var(--primary-text-color)
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    background-color: var(--accent-color);
+}
+.filter-btn.current {
+    background-color: var(--accent-color)
 }
