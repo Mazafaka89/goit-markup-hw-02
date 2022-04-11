@@ -98,6 +98,7 @@ color: var(--accent-color);
 .hero-btn {
     background-color: var(--accent-color);
     color: var(--white-bc-color);
+    cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -166,6 +167,7 @@ color: var(--accent-color);
 
 .portfolio-page {
     background-color: var(--white-bc-color);
+    color: var(--primary-text-color);
 }
 
 /* ----- Portfolio ----- */
@@ -206,12 +208,36 @@ color: var(--accent-color);
 }
 .filter-btn {
     background-color: var(--team-bc-color);
-    color: var(--primary-text-color)
+    color: var(--primary-text-color);
+    cursor: pointer;
 }
 .filter-btn:hover,
 .filter-btn:focus {
     background-color: var(--accent-color);
 }
 .filter-btn.current {
-    background-color: var(--accent-color)
+    background-color: var(--accent-color);
 }
+
+/* ----- footer ----- */
+
+.portfolio-footer {
+    background-color: var(--secondary-bc-color);
+}
+.portfolio-footer-logo {  
+    color: var(--accent-color);
+}
+.portfolio-footer-logo-white {
+    color: var(--white-bc-color);
+}
+.contacts-link-street {
+    color: var(--white-bc-color);
+}
+.contacts-link {
+    color: var(--secondary-text-color) ;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--accent-color);
+}
+
