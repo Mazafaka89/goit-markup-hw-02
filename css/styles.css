@@ -34,8 +34,10 @@ hover button #188CE8
     --accent-color: #2196f3;
     
 }
+/* ----- <body> start-page ----- */
 
 .start-page {
+    font-family: "Roboto", Tahoma, sans-serif;
     background-color: var(--white-bc-color);
      color: var(--primary-text-color);
  }
@@ -58,6 +60,11 @@ hover button #188CE8
 
 
 .header-logo {
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 .header-logo-black {
@@ -67,23 +74,47 @@ hover button #188CE8
 /* --- header-list --- */
 
 .header-link {
-    color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
 }
+
 .header-link:hover,
 .header-link:focus {
 color: var(--accent-color);
 }
+
 .current {
     color: var(--accent-color);
 }
 
-
 /* --- header-address --- */
-.header-address-link {
-    color: var(--secondary-text-color);
+
+.header-mail-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
 }
-.header-address-link:hover,
-.header-address-link:focus {
+
+.header-mail-link:hover,
+.header-mail-link:focus {
+    color: var(--accent-color);  
+}
+
+.header-tel-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--secondary-text-color);
+}
+
+.header-tel-link:hover,
+.header-tel-link:focus {
     color: var(--accent-color);  
 }
 
@@ -93,60 +124,106 @@ color: var(--accent-color);
     background-color: var(--secondary-bc-color);
 }
 .hero-title {
-    color: var(--white-bc-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--white-bc-color);
 }
+
 .hero-btn {
-    background-color: var(--accent-color);
-    color: var(--white-bc-color);
-    cursor: pointer;
+font-family: inherit;    
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+letter-spacing: 0.06em;
+background-color: var(--accent-color);
+color: var(--white-bc-color);
+cursor: pointer;
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
     background-color: #188ce8;
 }
 
-/* --- Features --- */
+/* --- features --- */
 
 .features {
     background-color: var(--primary-bc-color);
 } 
 .features-top-text {
-    color: var(--primary-text-color);
-}
-.features-text {
-    color: var(--secondary-text-color);
+color: var(--primary-text-color);
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
 }
 
-/* --- Чем мы занимаемся --- */
+.features-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--secondary-text-color);
+}
+
+/* --- <work> Чем мы занимаемся --- */
 
 .work {
     background-color: var(--primary-bc-color);
 } 
 .work-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 
-/* --- Наша команда --- */
+/* --- <team> Наша команда --- */
 
 .team {
     background-color: var(--team-bc-color);
 }
 .team-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 .team-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
     color: var(--primary-text-color);
 }
 .team-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
 
-/* ----- Контакты ----- */
+/* ----- <footer> Контакты ----- */
 
 .footer {
     background-color: var(--secondary-bc-color);
 }
 .footer-logo {  
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
     color: var(--accent-color);
 }
 .footer-logo-white {
@@ -155,11 +232,19 @@ color: var(--accent-color);
 .footer-address-street {
     color: var(--white-bc-color);
 }
-.footer-address-link {
+.footer-mail-link {
     color: var(--secondary-text-color) ;
 }
-.footer-address-link:hover,
-.footer-address-link:focus {
+.footer-mail-link:hover,
+.footer-mail-link:focus {
+    color: var(--accent-color);
+}
+
+.footer-tel-link {
+    color: var(--secondary-text-color) ;
+}
+.footer-tel-link:hover,
+.footer-tel-link:focus {
     color: var(--accent-color);
 }
 
