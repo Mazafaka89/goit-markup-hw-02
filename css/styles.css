@@ -21,7 +21,7 @@ hover button #188CE8
 
 -- footer --
 Фон #2F303A (черный)
-Адресс: #FFFFFF; почта и тел: #FFFFFF99;
+
 
 */
 :root {
@@ -308,7 +308,7 @@ letter-spacing: 0.03em;
     background-color: var(--primary-bc-color);
 }
 .filter-btn {
-font-family: 'Roboto';    
+font-family: inherit;    
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
